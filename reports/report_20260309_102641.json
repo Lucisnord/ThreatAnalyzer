@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-03-09T10:26:41.883380",
+  "total_events": 4,
+  "suspicious_ips": [
+    "103.224.182.250",
+    "192.168.1.110",
+    "192.168.1.105"
+  ],
+  "threats": [
+    {
+      "name": "CVE-2021-44228 (Log4Shell)",
+      "cvss": 10.0,
+      "description": "RCE в Log4j",
+      "status": "CRITICAL"
+    },
+    {
+      "name": "CVE-2021-41773 (Path Traversal)",
+      "cvss": 7.5,
+      "description": "Path traversal в Apache",
+      "status": "HIGH"
+    },
+    {
+      "name": "CVE-2022-22965 (Spring4Shell)",
+      "cvss": 9.8,
+      "description": "RCE в Spring Framework",
+      "status": "CRITICAL"
+    },
+    {
+      "name": "CVE-2020-1472 (Zerologon)",
+      "cvss": 9.8,
+      "description": "Privilege escalation в Windows",
+      "status": "CRITICAL"
+    },
+    {
+      "name": "CVE-2023-23397",
+      "cvss": 8.8,
+      "description": "RCE в Microsoft Office",
+      "status": "HIGH"
+    }
+  ],
+  "dns_stats": {
+    "total_dns": 0
+  }
+}
